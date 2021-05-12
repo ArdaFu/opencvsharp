@@ -252,6 +252,7 @@ copy "$(SolutionDir)opencv_files\opencv452_win_x64\x64\vc16\bin\opencv_videoio_f
     <ClCompile Include="features2d.cpp" />
     <ClCompile Include="stitching.cpp" />
     <ClCompile Include="superres.cpp" />
+    <ClCompile Include="surface_matching.cpp" />
     <ClCompile Include="text.cpp" />
     <ClCompile Include="tracking.cpp" />
     <ClCompile Include="video.cpp" />
@@ -285,6 +286,7 @@ copy "$(SolutionDir)opencv_files\opencv452_win_x64\x64\vc16\bin\opencv_videoio_f
     <ClInclude Include="cuda_GpuMat.h" />
     <ClInclude Include="features2d_BOW.h" />
     <ClInclude Include="flann_IndexParams.h" />
+    <ClInclude Include="icp.h" />
     <ClInclude Include="imgcodecs.h" />
     <ClInclude Include="imgproc_CLAHE.h" />
     <ClInclude Include="features2d_DescriptorMatcher.h" />
@@ -320,6 +322,7 @@ copy "$(SolutionDir)opencv_files\opencv452_win_x64\x64\vc16\bin\opencv_videoio_f
     <ClInclude Include="ml_RTrees.h" />
     <ClInclude Include="photo_HDR.h" />
     <ClInclude Include="photo_Tonemap.h" />
+    <ClInclude Include="ppf_helpers.h" />
     <ClInclude Include="quality.h" />
     <ClInclude Include="shape_ShapeDistanceExtractor.h" />
     <ClInclude Include="std_string.h" />

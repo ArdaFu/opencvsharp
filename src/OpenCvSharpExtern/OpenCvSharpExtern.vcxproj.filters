@@ -97,6 +97,9 @@
     <ClCompile Include="xphoto.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="surface_matching.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="bgsegm.h">
@@ -366,6 +369,12 @@
     <ClInclude Include="ximgproc_RidgeDetectionFilter.h">
       <Filter>Header Files\ximgproc</Filter>
     </ClInclude>
+    <ClInclude Include="icp.h">
+      <Filter>Header Files\surface_matching</Filter>
+    </ClInclude>
+    <ClInclude Include="ppf_helpers.h">
+      <Filter>Header Files\surface_matching</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
@@ -430,6 +439,9 @@
     </Filter>
     <Filter Include="Header Files\shape">
       <UniqueIdentifier>{b36ab73f-c7bb-491b-aedb-dc16a293c0b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\surface_matching">
+      <UniqueIdentifier>{5ed1346d-047e-4af1-bd42-d5c7e7dd67e8}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

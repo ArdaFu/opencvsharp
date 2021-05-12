@@ -62,6 +62,9 @@
 #include <opencv2/text.hpp>
 #endif
 
+#include <opencv2/surface_matching.hpp>
+#include <opencv2/surface_matching/ppf_helpers.hpp>
+
 #include <vector>
 #include <algorithm>
 #include <iterator>
